@@ -1,0 +1,24 @@
+.left-tab {
+  grid-area: left;
+  background: rgb(255, 0, 0, 0.1);
+}
+
+.left-tab:hover img, .center-tab:hover img, .right-tab:hover img{
+  opacity: 0.2
+}
+
+.center-tab {
+  grid-area: center;
+  background: rgb(0, 255, 0, 0.1);
+}
+
+.right-tab {
+  grid-area: right;
+  background: rgb(0, 0, 255, 0.1);
+}
+
+.order-of-reunion-container {
+  display: grid;
+  grid-template-areas:
+    'left center right';
+}

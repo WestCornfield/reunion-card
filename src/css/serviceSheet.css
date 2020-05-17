@@ -1,0 +1,15 @@
+.header {
+  grid-area: header;
+  background: rgb(255, 255, 0, 0.1);
+}
+
+.header:hover img {
+  opacity: 0.2
+}
+
+.service-sheet-container {
+  display: grid;
+  grid-template-areas:
+    'header header header'
+    'left center right';
+}

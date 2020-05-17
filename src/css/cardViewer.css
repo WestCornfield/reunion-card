@@ -1,0 +1,22 @@
+.active-card-flap-img {
+  width:100%;
+  z-index:-1;
+}
+
+.tab-container {
+  z-index: 2;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.left-tab:hover {
+  background-color: rgba(0, 0, 255, .1) ;
+}
+
+.center-tab:hover {
+  background-color: rgba(0, 255, 0, .1) ;
+}
+
+.right-tab:hover {
+  background-color: rgba(255, 0, 0, .1) ;
+}
