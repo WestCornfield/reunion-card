@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/cardViewer.css';
 
 class CardFlap extends React.Component {
   click = () => {

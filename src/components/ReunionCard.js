@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/reunionCard.css';
 import OrderOfReunionSide from './OrderOfReunionSide.js'
 import ServiceSheetSide from './ServiceSheetSide.js'
 
